@@ -1,0 +1,31 @@
+# Muhit va Maxfiy sozlamalar (Secrets)
+.env
+.env.local
+.env.*.local
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Ma'lumotlar bazasi (SQLite)
+*.sqlite3
+*.db
+
+# Python bytecode va kesh
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# IDE va Muharrir sozlamalari
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Tizim fayllari
+.DS_Store
+Thumbs.db
